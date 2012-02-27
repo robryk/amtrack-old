@@ -1,0 +1,253 @@
+27 ccp "Statements folded" "AT_GSM_sample_particle_positions" 3
+27 ccp "Constants propagated" "AT_GSM_sample_particle_positions" 3
+31 copyprop "Statements deleted" "AT_GSM_sample_particle_positions" 3
+33 cddce "PHI nodes deleted" "AT_GSM_sample_particle_positions" 1
+41 release_ssa "SSA names released" "AT_GSM_sample_particle_positions" 2
+27 ccp "Statements folded" "AT_GSM_dose_grid_from_particles_positions" 19
+27 ccp "Constants propagated" "AT_GSM_dose_grid_from_particles_positions" 19
+27 ccp "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 7
+31 copyprop "Copies propagated" "AT_GSM_dose_grid_from_particles_positions" 2
+31 copyprop "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 19
+33 cddce "PHI nodes deleted" "AT_GSM_dose_grid_from_particles_positions" 8
+33 cddce "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 2
+41 release_ssa "SSA names released" "AT_GSM_dose_grid_from_particles_positions" 20
+27 ccp "Statements folded" "AT_GSM_local_dose_distrib_from_dose_grid" 3
+27 ccp "Constants propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 3
+27 ccp "Statements deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 6
+31 copyprop "Statements deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 3
+33 cddce "PHI nodes deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+41 release_ssa "SSA names released" "AT_GSM_local_dose_distrib_from_dose_grid" 7
+27 ccp "Statements folded" "AT_GSM_response_grid_from_dose_grid" 1
+27 ccp "Constants propagated" "AT_GSM_response_grid_from_dose_grid" 1
+31 copyprop "Statements deleted" "AT_GSM_response_grid_from_dose_grid" 1
+41 release_ssa "SSA names released" "AT_GSM_response_grid_from_dose_grid" 1
+27 ccp "Statements folded" "AT_run_GSM_method" 24
+27 ccp "Constants propagated" "AT_run_GSM_method" 21
+27 ccp "Statements deleted" "AT_run_GSM_method" 5
+31 copyprop "Copies propagated" "AT_run_GSM_method" 2
+31 copyprop "Statements deleted" "AT_run_GSM_method" 21
+33 cddce "PHI nodes deleted" "AT_run_GSM_method" 2
+33 cddce "Statements deleted" "AT_run_GSM_method" 2
+41 release_ssa "SSA names released" "AT_run_GSM_method" 23
+27 ccp "Statements folded" "AT_GSM_local_dose_distrib" 4
+27 ccp "Constants propagated" "AT_GSM_local_dose_distrib" 4
+31 copyprop "Copies propagated" "AT_GSM_local_dose_distrib" 2
+31 copyprop "Statements deleted" "AT_GSM_local_dose_distrib" 4
+33 cddce "Statements deleted" "AT_GSM_local_dose_distrib" 2
+41 release_ssa "SSA names released" "AT_GSM_local_dose_distrib" 6
+27 ccp "Statements folded" "AT_GSM_multiple_local_dose_distrib" 10
+27 ccp "Constants propagated" "AT_GSM_multiple_local_dose_distrib" 10
+27 ccp "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 9
+31 copyprop "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 10
+33 cddce "PHI nodes deleted" "AT_GSM_multiple_local_dose_distrib" 5
+33 cddce "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 2
+41 release_ssa "SSA names released" "AT_GSM_multiple_local_dose_distrib" 17
+63 ccp "Constants propagated" "AT_GSM_sample_particle_positions" 1
+63 ccp "Statements deleted" "AT_GSM_sample_particle_positions" 1
+69 fre "SCC iterations == 3" "AT_GSM_sample_particle_positions" 4
+69 fre "SCC iterations == 4" "AT_GSM_sample_particle_positions" 1
+69 fre "Eliminated" "AT_GSM_sample_particle_positions" 21
+70 copyprop "Copies propagated" "AT_GSM_sample_particle_positions" 8
+70 copyprop "Statements deleted" "AT_GSM_sample_particle_positions" 21
+72 vrp "Constants propagated" "AT_GSM_sample_particle_positions" 1
+72 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_sample_particle_positions" 5
+73 dce "PHI nodes deleted" "AT_GSM_sample_particle_positions" 1
+73 dce "Statements deleted" "AT_GSM_sample_particle_positions" 1
+83 dom "Copies propagated" "AT_GSM_sample_particle_positions" 3
+83 dom "Constants propagated" "AT_GSM_sample_particle_positions" 1
+83 dom "Redundant expressions eliminated" "AT_GSM_sample_particle_positions" 3
+83 dom "Jumps threaded" "AT_GSM_sample_particle_positions" 2
+87 dce "PHI nodes deleted" "AT_GSM_sample_particle_positions" 1
+87 dce "Statements deleted" "AT_GSM_sample_particle_positions" 3
+96 pre "compute_antic iterations == 2" "AT_GSM_sample_particle_positions" 1
+96 pre "Insertions" "AT_GSM_sample_particle_positions" 11
+96 pre "SCC iterations == 2" "AT_GSM_sample_particle_positions" 1
+96 pre "SCC iterations == 3" "AT_GSM_sample_particle_positions" 5
+96 pre "insert iterations == 2" "AT_GSM_sample_particle_positions" 1
+96 pre "Eliminated" "AT_GSM_sample_particle_positions" 2
+101 copyprop "Copies propagated" "AT_GSM_sample_particle_positions" 2
+102 dceloop "Statements deleted" "AT_GSM_sample_particle_positions" 2
+117 dceloop "PHI nodes deleted" "AT_GSM_sample_particle_positions" 2
+127 vrp "Constants propagated" "AT_GSM_sample_particle_positions" 1
+127 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_sample_particle_positions" 3
+128 dom "Copies propagated" "AT_GSM_sample_particle_positions" 8
+128 dom "Redundant expressions eliminated" "AT_GSM_sample_particle_positions" 6
+130 cddce "Statements deleted" "AT_GSM_sample_particle_positions" 8
+63 ccp "Statements folded" "AT_GSM_dose_grid_from_particles_positions" 5
+63 ccp "Constants propagated" "AT_GSM_dose_grid_from_particles_positions" 8
+63 ccp "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 3
+69 fre "SCC iterations == 3" "AT_GSM_dose_grid_from_particles_positions" 24
+69 fre "SCC iterations == 4" "AT_GSM_dose_grid_from_particles_positions" 1
+69 fre "SCC iterations == 6" "AT_GSM_dose_grid_from_particles_positions" 2
+69 fre "Eliminated" "AT_GSM_dose_grid_from_particles_positions" 77
+70 copyprop "Copies propagated" "AT_GSM_dose_grid_from_particles_positions" 37
+70 copyprop "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 81
+72 vrp "Constants propagated" "AT_GSM_dose_grid_from_particles_positions" 8
+72 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_dose_grid_from_particles_positions" 33
+73 dce "PHI nodes deleted" "AT_GSM_dose_grid_from_particles_positions" 8
+73 dce "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 9
+83 dom "Copies propagated" "AT_GSM_dose_grid_from_particles_positions" 9
+83 dom "Constants propagated" "AT_GSM_dose_grid_from_particles_positions" 8
+83 dom "Redundant expressions eliminated" "AT_GSM_dose_grid_from_particles_positions" 12
+83 dom "Jumps threaded" "AT_GSM_dose_grid_from_particles_positions" 4
+87 dce "PHI nodes deleted" "AT_GSM_dose_grid_from_particles_positions" 4
+87 dce "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 9
+96 pre "compute_antic iterations == 2" "AT_GSM_dose_grid_from_particles_positions" 1
+96 pre "Insertions" "AT_GSM_dose_grid_from_particles_positions" 69
+96 pre "SCC iterations == 2" "AT_GSM_dose_grid_from_particles_positions" 12
+96 pre "SCC iterations == 3" "AT_GSM_dose_grid_from_particles_positions" 27
+96 pre "insert iterations == 2" "AT_GSM_dose_grid_from_particles_positions" 1
+96 pre "Eliminated" "AT_GSM_dose_grid_from_particles_positions" 11
+101 copyprop "Copies propagated" "AT_GSM_dose_grid_from_particles_positions" 12
+102 dceloop "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 12
+107 copyprop "Copies propagated" "AT_GSM_dose_grid_from_particles_positions" 3
+115 vect "Vectorized loops" "AT_GSM_dose_grid_from_particles_positions" 1
+117 dceloop "PHI nodes deleted" "AT_GSM_dose_grid_from_particles_positions" 16
+117 dceloop "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 9
+127 vrp "Statements folded" "AT_GSM_dose_grid_from_particles_positions" 1
+127 vrp "Constants propagated" "AT_GSM_dose_grid_from_particles_positions" 17
+127 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_dose_grid_from_particles_positions" 33
+128 dom "Copies propagated" "AT_GSM_dose_grid_from_particles_positions" 43
+128 dom "Redundant expressions eliminated" "AT_GSM_dose_grid_from_particles_positions" 32
+128 dom "Constants propagated" "AT_GSM_dose_grid_from_particles_positions" 2
+130 cddce "Statements deleted" "AT_GSM_dose_grid_from_particles_positions" 62
+63 ccp "Statements folded" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+63 ccp "Constants propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+63 ccp "Statements deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+69 fre "SCC iterations == 3" "AT_GSM_local_dose_distrib_from_dose_grid" 4
+69 fre "SCC iterations == 4" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+69 fre "Eliminated" "AT_GSM_local_dose_distrib_from_dose_grid" 8
+70 copyprop "Copies propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+70 copyprop "Statements deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 9
+72 vrp "Constants propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+72 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_local_dose_distrib_from_dose_grid" 9
+73 dce "PHI nodes deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+73 dce "Statements deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+83 dom "Constants propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+83 dom "Redundant expressions eliminated" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+87 dce "PHI nodes deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+96 pre "compute_antic iterations == 2" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+96 pre "Insertions" "AT_GSM_local_dose_distrib_from_dose_grid" 12
+96 pre "SCC iterations == 2" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+96 pre "SCC iterations == 3" "AT_GSM_local_dose_distrib_from_dose_grid" 5
+96 pre "insert iterations == 2" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+96 pre "Eliminated" "AT_GSM_local_dose_distrib_from_dose_grid" 3
+101 copyprop "Copies propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+102 dceloop "Statements deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 3
+117 dceloop "PHI nodes deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+127 vrp "Constants propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+127 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_local_dose_distrib_from_dose_grid" 8
+128 dom "Copies propagated" "AT_GSM_local_dose_distrib_from_dose_grid" 2
+128 dom "Redundant expressions eliminated" "AT_GSM_local_dose_distrib_from_dose_grid" 1
+130 cddce "Statements deleted" "AT_GSM_local_dose_distrib_from_dose_grid" 4
+69 fre "SCC iterations == 3" "AT_GSM_response_grid_from_dose_grid" 2
+69 fre "Eliminated" "AT_GSM_response_grid_from_dose_grid" 2
+70 copyprop "Copies propagated" "AT_GSM_response_grid_from_dose_grid" 1
+70 copyprop "Statements deleted" "AT_GSM_response_grid_from_dose_grid" 2
+72 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_response_grid_from_dose_grid" 2
+96 pre "compute_antic iterations == 2" "AT_GSM_response_grid_from_dose_grid" 1
+96 pre "Insertions" "AT_GSM_response_grid_from_dose_grid" 4
+96 pre "SCC iterations == 3" "AT_GSM_response_grid_from_dose_grid" 2
+96 pre "insert iterations == 2" "AT_GSM_response_grid_from_dose_grid" 1
+96 pre "Eliminated" "AT_GSM_response_grid_from_dose_grid" 1
+101 copyprop "Copies propagated" "AT_GSM_response_grid_from_dose_grid" 1
+102 dceloop "Statements deleted" "AT_GSM_response_grid_from_dose_grid" 1
+127 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_response_grid_from_dose_grid" 1
+128 dom "Copies propagated" "AT_GSM_response_grid_from_dose_grid" 1
+128 dom "Redundant expressions eliminated" "AT_GSM_response_grid_from_dose_grid" 1
+130 cddce "Statements deleted" "AT_GSM_response_grid_from_dose_grid" 1
+63 ccp "Statements folded" "AT_run_GSM_method" 3
+63 ccp "Constants propagated" "AT_run_GSM_method" 4
+63 ccp "Statements deleted" "AT_run_GSM_method" 1
+69 fre "SCC iterations == 2" "AT_run_GSM_method" 7
+69 fre "SCC iterations == 3" "AT_run_GSM_method" 18
+69 fre "SCC iterations == 4" "AT_run_GSM_method" 1
+69 fre "Eliminated" "AT_run_GSM_method" 50
+70 copyprop "Copies propagated" "AT_run_GSM_method" 39
+70 copyprop "Statements deleted" "AT_run_GSM_method" 49
+72 vrp "Statements folded" "AT_run_GSM_method" 2
+72 vrp "Constants propagated" "AT_run_GSM_method" 3
+72 vrp "Number of ASSERT_EXPR expressions inserted" "AT_run_GSM_method" 57
+73 dce "PHI nodes deleted" "AT_run_GSM_method" 2
+73 dce "Statements deleted" "AT_run_GSM_method" 8
+83 dom "Constants propagated" "AT_run_GSM_method" 1
+83 dom "Redundant expressions eliminated" "AT_run_GSM_method" 2
+83 dom "Jumps threaded" "AT_run_GSM_method" 6
+87 dce "PHI nodes deleted" "AT_run_GSM_method" 4
+96 pre "compute_antic iterations == 2" "AT_run_GSM_method" 1
+96 pre "Insertions" "AT_run_GSM_method" 47
+96 pre "New PHIs" "AT_run_GSM_method" 5
+96 pre "SCC iterations == 2" "AT_run_GSM_method" 15
+96 pre "SCC iterations == 3" "AT_run_GSM_method" 19
+96 pre "insert iterations == 2" "AT_run_GSM_method" 1
+96 pre "Eliminated" "AT_run_GSM_method" 16
+101 copyprop "Copies propagated" "AT_run_GSM_method" 14
+102 dceloop "Statements deleted" "AT_run_GSM_method" 16
+107 copyprop "Copies propagated" "AT_run_GSM_method" 2
+115 vect "Vectorized loops" "AT_run_GSM_method" 2
+117 dceloop "PHI nodes deleted" "AT_run_GSM_method" 13
+117 dceloop "Statements deleted" "AT_run_GSM_method" 16
+127 vrp "Statements folded" "AT_run_GSM_method" 5
+127 vrp "Constants propagated" "AT_run_GSM_method" 8
+127 vrp "Jumps threaded" "AT_run_GSM_method" 2
+127 vrp "Number of ASSERT_EXPR expressions inserted" "AT_run_GSM_method" 61
+128 dom "Copies propagated" "AT_run_GSM_method" 27
+128 dom "Redundant expressions eliminated" "AT_run_GSM_method" 18
+130 cddce "Statements deleted" "AT_run_GSM_method" 42
+69 fre "SCC iterations == 3" "AT_GSM_local_dose_distrib" 7
+69 fre "Eliminated" "AT_GSM_local_dose_distrib" 9
+70 copyprop "Copies propagated" "AT_GSM_local_dose_distrib" 6
+70 copyprop "Statements deleted" "AT_GSM_local_dose_distrib" 9
+72 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_local_dose_distrib" 9
+96 pre "compute_antic iterations == 2" "AT_GSM_local_dose_distrib" 1
+96 pre "Insertions" "AT_GSM_local_dose_distrib" 12
+96 pre "New PHIs" "AT_GSM_local_dose_distrib" 1
+96 pre "SCC iterations == 2" "AT_GSM_local_dose_distrib" 4
+96 pre "SCC iterations == 3" "AT_GSM_local_dose_distrib" 7
+96 pre "insert iterations == 2" "AT_GSM_local_dose_distrib" 1
+96 pre "Eliminated" "AT_GSM_local_dose_distrib" 3
+101 copyprop "Copies propagated" "AT_GSM_local_dose_distrib" 5
+102 dceloop "Statements deleted" "AT_GSM_local_dose_distrib" 3
+117 dceloop "PHI nodes deleted" "AT_GSM_local_dose_distrib" 2
+127 vrp "Constants propagated" "AT_GSM_local_dose_distrib" 1
+127 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_local_dose_distrib" 9
+128 dom "Copies propagated" "AT_GSM_local_dose_distrib" 5
+128 dom "Redundant expressions eliminated" "AT_GSM_local_dose_distrib" 5
+130 cddce "Statements deleted" "AT_GSM_local_dose_distrib" 7
+63 ccp "Statements folded" "AT_GSM_multiple_local_dose_distrib" 4
+63 ccp "Constants propagated" "AT_GSM_multiple_local_dose_distrib" 5
+63 ccp "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 1
+69 fre "SCC iterations == 2" "AT_GSM_multiple_local_dose_distrib" 1
+69 fre "SCC iterations == 3" "AT_GSM_multiple_local_dose_distrib" 10
+69 fre "Eliminated" "AT_GSM_multiple_local_dose_distrib" 9
+70 copyprop "Copies propagated" "AT_GSM_multiple_local_dose_distrib" 7
+70 copyprop "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 13
+72 vrp "Constants propagated" "AT_GSM_multiple_local_dose_distrib" 4
+72 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_multiple_local_dose_distrib" 21
+73 dce "PHI nodes deleted" "AT_GSM_multiple_local_dose_distrib" 3
+73 dce "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 4
+83 dom "Constants propagated" "AT_GSM_multiple_local_dose_distrib" 3
+83 dom "Jumps threaded" "AT_GSM_multiple_local_dose_distrib" 4
+87 dce "PHI nodes deleted" "AT_GSM_multiple_local_dose_distrib" 2
+96 pre "compute_antic iterations == 3" "AT_GSM_multiple_local_dose_distrib" 1
+96 pre "Insertions" "AT_GSM_multiple_local_dose_distrib" 25
+96 pre "New PHIs" "AT_GSM_multiple_local_dose_distrib" 3
+96 pre "SCC iterations == 2" "AT_GSM_multiple_local_dose_distrib" 3
+96 pre "SCC iterations == 3" "AT_GSM_multiple_local_dose_distrib" 10
+96 pre "insert iterations == 2" "AT_GSM_multiple_local_dose_distrib" 1
+96 pre "Eliminated" "AT_GSM_multiple_local_dose_distrib" 4
+101 copyprop "Copies propagated" "AT_GSM_multiple_local_dose_distrib" 3
+102 dceloop "PHI nodes deleted" "AT_GSM_multiple_local_dose_distrib" 2
+102 dceloop "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 4
+115 vect "Vectorized loops" "AT_GSM_multiple_local_dose_distrib" 4
+117 dceloop "PHI nodes deleted" "AT_GSM_multiple_local_dose_distrib" 25
+117 dceloop "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 26
+127 vrp "Statements folded" "AT_GSM_multiple_local_dose_distrib" 4
+127 vrp "Constants propagated" "AT_GSM_multiple_local_dose_distrib" 14
+127 vrp "Jumps threaded" "AT_GSM_multiple_local_dose_distrib" 1
+127 vrp "Number of ASSERT_EXPR expressions inserted" "AT_GSM_multiple_local_dose_distrib" 27
+128 dom "Copies propagated" "AT_GSM_multiple_local_dose_distrib" 39
+128 dom "Redundant expressions eliminated" "AT_GSM_multiple_local_dose_distrib" 22
+128 dom "Constants propagated" "AT_GSM_multiple_local_dose_distrib" 2
+130 cddce "PHI nodes deleted" "AT_GSM_multiple_local_dose_distrib" 1
+130 cddce "Statements deleted" "AT_GSM_multiple_local_dose_distrib" 66
